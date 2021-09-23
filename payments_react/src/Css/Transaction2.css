@@ -1,0 +1,88 @@
+.Transaction2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    color: black;
+background-image: url("../Icons/wall1.jpg");
+}
+.textcol{
+    height: 43px;
+    width:300px;
+    margin-top: 25px;
+    margin-left: 550px;
+    margin-bottom: 5px;
+    background-image: linear-gradient(to right, #26cfab 0%,#d326c5 51%,#f83636 100%);
+   padding-top: 2px;
+   padding-left: 2px;
+   padding-right: 2px;
+
+}
+.formMain{
+    width: 1000px;
+    border-radius: 15px 50px 30px;
+    border: 3px solid black;
+}
+
+
+.form-control,.form-group,.row{
+    width: 100%;
+}
+
+.row{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.form-control:disabled{
+    background: #C0C0C0;
+}
+
+.button-row{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonTransaction{
+    border-radius: 10px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #5cd88a 0%,#f0deb9 51%,#459462 100%);
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+.buttonTransaction:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f0deb9 0%,#53e288 51%,#f0d090 100%);
+}
+
+.Transaction2Key{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.15mm;
+    margin-left: 270px;
+    margin-top: 30px;
+    margin-bottom: -100px;
+}
+
+.Transaction2Error{
+    font-size: medium;
+    font-weight: 600;
+    padding: 10px;
+    letter-spacing: 0.15mm;
+    text-align: center;
+    color : #E5E4E2;
+    background : #F44336;
+    border-radius: 7px;
+    width: 90%;
+}

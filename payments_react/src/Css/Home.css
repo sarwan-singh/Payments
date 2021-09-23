@@ -1,0 +1,50 @@
+
+.Home{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Icons/wall1.jpg");
+    background-size:cover;
+}
+.Welcome{
+    float: right;
+    font-size: 20px;
+    height: 35px;
+    width: 1280px;
+    background-color: #8ece8e;
+    color: black;
+    margin-top: 1px;
+}
+.HomeHeading{
+    color: #ffffff;
+    font-size: xx-large;
+    letter-spacing: 0.15mm;
+}
+.HomeBank{
+    height: 100px;
+    filter: opacity(80%);
+}
+
+.WelcomeImage{
+    margin-top: 5px;
+    height:260px;
+    width: 1000px;
+}
+.buttonHome{
+    border-radius: 8px;
+    margin: 10px;
+    background-image: linear-gradient(to right, #84fab0 0%,#ece6da 51%,#84fab0 100%);
+    border-radius: 20px;
+    width: 300px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+
+.buttonHome:hover{
+    cursor: pointer;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #ece6da 0%,#84fab0 51%,#ece6da 100%);
+    border-radius: 80%;
+}

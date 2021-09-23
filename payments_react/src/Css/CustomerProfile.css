@@ -1,0 +1,50 @@
+.CustomerProfile{
+    background-image: url("../Icons/wall1.jpg");
+    background-size:cover;
+    height: 450px;
+    font-size: 20px;
+    font-weight: 900px;
+}
+.clientname1{height:40px;
+align-items: center;
+margin-top:30px;
+}.marginTopBottom{
+margin-top: 5px;
+margin-bottom: 5px;
+}.borderBottom{
+border-bottom: 1px solid black;
+margin-left: -4px;
+margin-right: -4px;
+font-size: small;
+}
+.displayCols{
+background: #ffffff;
+display: flex;
+flex-direction: column;
+border-radius: 20px;
+padding: 5px;
+justify-content: center;
+text-align: center;
+color: #000000;
+margin-bottom: 20px;
+}
+.contact-form form{
+padding: 0%;
+}.contact-form h3{
+margin-bottom: 8%;
+margin-top: -10%;
+text-align: center;
+color:#F1B856;
+font-size: 30px;}
+.container-fluid1{
+width: 1000px;
+padding-top:0%;
+margin-top:-3%;
+margin-right: -500px;
+}
+.card1{
+background-color: #8ece8e;
+color:floralwhite;
+border-radius: 20px;
+color:black
+}

@@ -1,0 +1,21 @@
+.CustomerTransactions{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Icons/wall1.jpg");
+}
+
+.CustomerTransactionsFull{
+    justify-content: inherit;
+    height: 100vh;
+}
+
+.CustomerTransactionsNoTransactions{
+    color: #000000;
+    font-size: x-large;
+    letter-spacing: 0.2mm;
+    margin-top: 200px;
+    font-weight: bold;
+}

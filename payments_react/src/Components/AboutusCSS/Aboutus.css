@@ -1,0 +1,9 @@
+.content{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-image: url("../../Icons/wall1.jpg");
+    background-size:cover;
+    height: 580px;
+    margin-bottom: -20px;
+}

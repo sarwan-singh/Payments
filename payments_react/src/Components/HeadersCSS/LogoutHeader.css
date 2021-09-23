@@ -1,0 +1,28 @@
+
+.LogoutHeader{
+    font-size: large;
+    width: 96%;
+    margin-top: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-right: 25px;
+    display: flex;
+    border-radius: 9px;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #8ece8e;
+}
+
+.logout{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.HeaderHeading{
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 0.1mm;
+}
